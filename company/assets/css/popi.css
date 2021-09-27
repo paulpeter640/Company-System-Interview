@@ -1,0 +1,115 @@
+:root {
+	--theme-color: #00838f;
+	/*rgba(11, 86, 43, 0.78)*/
+	--font-color: ghostwhite;
+	--font-white: white;
+	--font-grey: #ebeff2;
+}
+
+.navbar-custom,
+.logo-box {
+	background-color: var(--theme-color) !important;
+}
+
+.page-title-main,
+.pro-user-name {
+	color: var(--font-color) !important;
+}
+
+.content-page .content {
+	margin-top: 25px;
+}
+
+#sidebar-menu>ul>li>a.active {
+	background-color: var(--theme-color) !important;
+	color: var(--font-color) !important;
+}
+
+#sidebar-menu>ul>li>a:hover {
+	color: var(--theme-color) !important;
+	background-color: var(--font-white) !important;
+}
+
+#sidebar-menu>ul>li {
+	border-bottom: 1px solid var(--font-grey);
+}
+
+#sidebar-menu>ul>li>a:active,
+#sidebar-menu>ul>li>a:focus,
+#sidebar-menu>ul>li>a:hover {
+	color: var(--font-white) !important;
+	background-color: var(--theme-color) !important;
+}
+
+.nav-second-level li.active>a,
+.nav-third-level li.active>a {
+	color: var(--theme-color);
+	font-weight: bold;
+}
+
+.nav-second-level li a:focus,
+.nav-second-level li a:hover,
+.nav-thrid-level li a:focus,
+.nav-thrid-level li a:hover {
+	color: var(--theme-color);
+	font-weight: bold;
+}
+
+.page-item.active .page-link {
+	background-color: var(--theme-color) !important;
+	border-color: var(--theme-color) !important;
+}
+
+table thead {
+	background-color: var(--font-grey);
+}
+
+h4.modal-title {
+	font-weight: 100 !important;
+}
+
+.modal-title,
+.button-menu-mobile {
+	color: var(--font-color) !important;
+}
+
+.modal-header {
+	background-color: var(--theme-color);
+	color: var(--font-color) !important;
+}
+
+.modal-footer {
+	background-color: var(--font-grey);
+}
+
+.modal-header button {
+	color: var(--font-color) !important;
+}
+
+.notification-list .profile-dropdown .notify-item:hover {
+	background-color: var(--theme-color);
+	color: var(--font-color) !important;
+}
+
+.btn-primary {
+	background-color: var(--theme-color);
+}
+
+.btn-outline-primary {
+	color: var(--theme-color);
+	border-color: var(--theme-color);
+}
+
+.btn-outline-primary:hover {
+	/* color: var(--theme-color); */
+	border-color: var(--theme-color);
+	background-color: var(--theme-color);
+}
+
+.displaywarnings {
+	color: red;
+}
+
+th {
+	color: var(--theme-color);
+}
